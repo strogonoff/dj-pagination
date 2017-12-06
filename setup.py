@@ -80,7 +80,7 @@ setup(
         "Programming Language :: Python :: 3.5",
     ],
     setup_requires=[
-        'django >= 1.8.0'
+        'django >= 1.8.0, < 2.0'
     ],
     include_package_data=True,
 )
